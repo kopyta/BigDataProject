@@ -1,51 +1,51 @@
-rank,name,artist,date_added,popularity
-1,HIPNOZA,NIKOŚ,2023-12-20 09:33:47,72
-2,Last Christmas - Single Version,Wham!,2023-12-20 09:33:47,89
-3,All I Want for Christmas Is You,Mariah Carey,2023-12-20 09:33:47,100
-4,Snowman,Sia,2023-12-20 09:33:47,94
-5,Rockin' Around The Christmas Tree,Brenda Lee,2023-12-20 09:33:47,98
-6,Kevin sam w domu,Blacha 2115,2023-12-20 09:33:47,54
-7,Jingle Bell Rock,Bobby Helms,2023-12-20 09:33:47,94
-8,BFF,bambi,2023-12-20 09:33:47,75
-9,Merry Christmas Everyone,Shakin' Stevens,2023-12-20 09:33:47,91
-10,Fluid,ReTo,2023-12-20 09:33:47,74
-11,Santa Tell Me,Ariana Grande,2023-12-20 09:33:47,96
-12,Stan,Gibbs,2023-12-20 09:33:47,66
-13,It's Beginning to Look a Lot like Christmas,Michael Bublé,2023-12-20 09:33:47,87
-14,Driving Home for Christmas,Chris Rea,2023-12-20 09:33:47,75
-15,Holly Jolly Christmas,Michael Bublé,2023-12-20 09:33:47,83
-16,It's the Most Wonderful Time of the Year,Andy Williams,2023-12-20 09:33:47,79
-17,greedy,Tate McRae,2023-12-20 09:33:47,99
-18,Let It Snow! Let It Snow! Let It Snow!,Dean Martin,2023-12-20 09:33:47,95
-19,Jolie Jolie,Blacha 2115,2023-12-20 09:33:47,72
-20,Sleigh Ride,The Ronettes,2023-12-20 09:33:47,83
-21,"Dzięki, że jesteś",Lanberry,2023-12-20 09:33:47,69
-22,Mam Cię,Paluch,2023-12-20 09:33:47,71
-23,Autumn Dance,L.U.C.,2023-12-20 09:33:47,50
-24,Nicea,PRO8L3M,2023-12-20 09:33:47,66
-25,Miyabi,PRO8L3M,2023-12-20 09:33:47,68
-26,Underneath the Tree,Kelly Clarkson,2023-12-20 09:33:47,86
-27,Ne Rozumiju,Vixen,2023-12-20 09:33:47,68
-28,Kto Wie?,De Su,2023-12-20 09:33:47,68
-29,Całkiem Nowa Bajka,Kleks,2023-12-20 09:33:47,63
-30,Dzień jeden w roku,Czerwone Gitary,2023-12-20 09:33:47,66
-31,Feliz Navidad,José Feliciano,2023-12-20 09:33:47,88
-32,Nim Zajdzie Słońce,Smolasty,2023-12-20 09:33:47,72
-33,Explosion Ech poleczko - DNSQ Remix,Kalwi & Remi,2023-12-20 09:33:47,70
-34,CEO,Asster,2023-12-20 09:33:47,61
-35,Byłem człowiekiem,PRO8L3M,2023-12-20 09:33:47,68
-36,Strangers,Kenya Grace,2023-12-20 09:33:47,96
-37,JEREMY SOCHAN,Oki,2023-12-20 09:33:47,72
-38,Coraz Bliżej Święta,Margaret,2023-12-20 09:33:47,67
-39,Overdrive (feat. Norma Jean Martine),Ofenbach,2023-12-20 09:33:47,83
-40,Kulig,Kaz Bałagane,2023-12-20 09:33:47,68
-41,Let It Snow! Let It Snow! Let It Snow! (with The B. Swanson Quartet),Frank Sinatra,2023-12-20 09:33:47,90
-42,5 INFLUENCEREK,Zeamsone,2023-12-20 09:33:47,69
-43,Do They Know It's Christmas? - 1984 Version,Band Aid,2023-12-20 09:33:47,89
-44,My Only Wish (This Year),Britney Spears,2023-12-20 09:33:47,87
-45,NIE MA CIĘ,Fukaj,2023-12-20 09:33:47,68
-46,Ciapakwybujany,GM2L,2023-12-20 09:33:47,64
-47,Tyrka,Qry,2023-12-20 09:33:47,32
-48,ITALODISCO,The Kolors,2023-12-20 09:33:47,79
-49,Happy Xmas (War Is Over) - Remastered 2010,John Lennon,2023-12-20 09:33:47,91
-50,Thank God It's Christmas - 2011 Remaster,Queen,2023-12-20 09:33:47,74
+track_id;rank;track_name;artist;date_added;popularity
+4EHHB2Gfa9d4iPx8JsCd65;1;HIPNOZA;NIKOŚ;2023-12-20 09:33:47;72
+06qMRF18gwbOYYbnP2du6i;2;Last Christmas - Single Version;Wham!;2023-12-20 09:33:47;89
+0bYg9bo50gSsH3LtXe2SQn;3;All I Want for Christmas Is You;Mariah Carey;2023-12-20 09:33:47;100
+7uoFMmxln0GPXQ0AcCBXRq;4;Snowman;Sia;2023-12-20 09:33:47;94
+2EjXfH91m7f8HiJN1yQg97;5;Rockin' Around The Christmas Tree;Brenda Lee;2023-12-20 09:33:47;98
+0DhKkQjcrOXLBr9eCtocfc;6;Kevin sam w domu;Blacha 2115;2023-12-20 09:33:47;54
+7vQbuQcyTflfCIOu3Uzzya;7;Jingle Bell Rock;Bobby Helms;2023-12-20 09:33:47;94
+1kuhnhugcuXf4CiNdqCRUU;8;BFF;bambi;2023-12-20 09:33:47;75
+2TE4xW3ImvpltVU0cPcKUn;9;Merry Christmas Everyone;Shakin' Stevens;2023-12-20 09:33:47;91
+5E6Nv8QZblXpiFDQ8iSfE2;10;Fluid;ReTo;2023-12-20 09:33:47;74
+0lizgQ7Qw35od7CYaoMBZb;11;Santa Tell Me;Ariana Grande;2023-12-20 09:33:47;96
+18bAMjHACL9Iphk0KB0z7o;12;Stan;Gibbs;2023-12-20 09:33:47;66
+3ZfRpDV74gUbBCmW8yb6ml;13;It's Beginning to Look a Lot like Christmas;Michael Bublé;2023-12-20 09:33:47;87
+3Z3QhZAZpqwZa1phsbQ3JZ;14;Driving Home for Christmas;Chris Rea;2023-12-20 09:33:47;75
+6tjituizSxwSmBB5vtgHZE;15;Holly Jolly Christmas;Michael Bublé;2023-12-20 09:33:47;83
+3gBhiIj76UJQ7jlrUR4qjc;16;It's the Most Wonderful Time of the Year;Andy Williams;2023-12-20 09:33:47;79
+3rUGC1vUpkDG9CZFHMur1t;17;greedy;Tate McRae;2023-12-20 09:33:47;99
+2uFaJJtFpPDc5Pa95XzTvg;18;Let It Snow! Let It Snow! Let It Snow!;Dean Martin;2023-12-20 09:33:47;95
+2JJ6WnAfVglnYfxZubSukn;19;Jolie Jolie;Blacha 2115;2023-12-20 09:33:47;72
+5ASM6Qjiav2xPe7gRkQMsQ;20;Sleigh Ride;The Ronettes;2023-12-20 09:33:47;83
+5Qw74vxmtJzAEYjy1wfVCk;21;Dzięki, że jesteś;Lanberry;2023-12-20 09:33:47;69
+3moDqdYK90QDw3Lk9q5yDE;22;Mam Cię;Paluch;2023-12-20 09:33:47;71
+78hH2iGVmsmdPk50AhU2F4;23;Autumn Dance;L.U.C.;2023-12-20 09:33:47;50
+5OYaQw9IS8MMDFRgTPqDnR;24;Nicea;PRO8L3M;2023-12-20 09:33:47;66
+2GgLLdsRjbiAtN5nfm7i7i;25;Miyabi;PRO8L3M;2023-12-20 09:33:47;68
+3YZE5qDV7u1ZD1gZc47ZeR;26;Underneath the Tree;Kelly Clarkson;2023-12-20 09:33:47;86
+3XWr2NZqYd80MB8FIq9r55;27;Ne Rozumiju;Vixen;2023-12-20 09:33:47;68
+4z77VPWmxxMosO4o2jD8uT;28;Kto Wie?;De Su;2023-12-20 09:33:47;68
+0X1bF7CkMCif03ygcSDVOj;29;Całkiem Nowa Bajka;Kleks;2023-12-20 09:33:47;63
+5YeWMDlueFQ2727lVfGaIg;30;Dzień jeden w roku;Czerwone Gitary;2023-12-20 09:33:47;66
+0oPdaY4dXtc3ZsaG17V972;31;Feliz Navidad;José Feliciano;2023-12-20 09:33:47;88
+1NtvjagHJRLQogzWVhpghv;32;Nim Zajdzie Słońce;Smolasty;2023-12-20 09:33:47;72
+3QHZAr43uvIGpWfJAHhFX3;33;Explosion Ech poleczko - DNSQ Remix;Kalwi & Remi;2023-12-20 09:33:47;70
+4ltVdPcmgfSlsicK4ZIQGT;34;CEO;Asster;2023-12-20 09:33:47;61
+0nQljvBR8fuT0nmLKZ6hqi;35;Byłem człowiekiem;PRO8L3M;2023-12-20 09:33:47;68
+5mjYQaktjmjcMKcUIcqz4s;36;Strangers;Kenya Grace;2023-12-20 09:33:47;96
+2WBejVahXeC1gjCXVOlgbq;37;JEREMY SOCHAN;Oki;2023-12-20 09:33:47;72
+6IyM1d0DOlb8S3tUGi7wPB;38;Coraz Bliżej Święta;Margaret;2023-12-20 09:33:47;67
+3bK1zVFBKIzYjmptmI4NsJ;39;Overdrive (feat. Norma Jean Martine);Ofenbach;2023-12-20 09:33:47;83
+4vhYckF7yzomDdqoHb3dIl;40;Kulig;Kaz Bałagane;2023-12-20 09:33:47;68
+4kKdvXD0ez7jp1296JmAts;41;Let It Snow! Let It Snow! Let It Snow! (with The B. Swanson Quartet);Frank Sinatra;2023-12-20 09:33:47;90
+4u3pVIKFDquOVeyvkc1Hjh;42;5 INFLUENCEREK;Zeamsone;2023-12-20 09:33:47;69
+4Yg2w0P29BBBMixyeNjDtj;43;Do They Know It's Christmas? - 1984 Version;Band Aid;2023-12-20 09:33:47;89
+0YWUHZPJVg4iujddsJDwhM;44;My Only Wish (This Year);Britney Spears;2023-12-20 09:33:47;87
+1cnkQScXEGBZKqqy6EjVZo;45;NIE MA CIĘ;Fukaj;2023-12-20 09:33:47;68
+2PF5O4wQHtD9KpxNALuoBD;46;Ciapakwybujany;GM2L;2023-12-20 09:33:47;64
+5m1mhgEkvqDFjLjTykf26Q;47;Tyrka;Qry;2023-12-20 09:33:47;32
+3QAU2pj4LUKf7yaTgANlQV;48;ITALODISCO;The Kolors;2023-12-20 09:33:47;79
+27RYrbL6S02LNVhDWVl38b;49;Happy Xmas (War Is Over) - Remastered 2010;John Lennon;2023-12-20 09:33:47;91
+3AymrUApW5JKKaNrHQhcBG;50;Thank God It's Christmas - 2011 Remaster;Queen;2023-12-20 09:33:47;74
