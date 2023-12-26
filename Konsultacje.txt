@@ -1,0 +1,30 @@
+1. Pobieranie danych z API
+	> zamienić .ipynb na .py
+	> w nifi wstawić execute process lub execute script
+	> napisać script shellowy, który wykona plik .py
+
+2. Czy wszystko ma działać jako spójny system? Jak?
+	> komponenty w nifi powinny tworzyć flow
+	> cały system ma działać za pomocą odpalenia nifi
+
+3. Jak mogłyby wyglądać testy?
+	> tabela: co testowane, jak?, wartość oczekiwana, faktyczny
+	  output (zrzut ekranu)
+	> obiekty testów to np. kokmunikacja, przetwarzanie
+
+4. Co jeśli częstotliwość pobierania z API to 1 dzień?
+	> pliki już przez nas zgromadzone wrzucić ręcznie i dalej przetworzyć
+	> zascheduleować większą częstotliwość pobierania, z obsługą przypadku
+	  braku nowych danych
+	> procesor pobierający dane z API powinien pobierać wyłącznie nowe dane
+		- nie pobierać pliku jeśli istnieje już plik z danego dnia
+		- można to uzyskać dodając zmienną w nifi i updateować wartość
+		  zmiennej w przypadku wystąpienia nowych danych
+5. Jaką formę ma mieć Master data set ?
+	> katalog, do którego dorzucamy dane
+
+Uwagi:
+> Warto zawsze zapisywać template z nifi
+> Ważne aby uwzględnić obsługę błędów (aby błąd nie zatzrymał całego flow)
+	- problematyczne może być wystąpienie znaków specjalnych znaki specjalne (/ `. itp.)
+	- coś o problemach z wczytywaiem danych do hbase i hive
