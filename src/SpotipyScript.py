@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[138]:
+# In[31]:
 
 
 import spotipy
@@ -13,7 +13,7 @@ import os
 import time
 
 
-# In[139]:
+# In[32]:
 
 
 # Spotify API credentials
@@ -29,7 +29,7 @@ playlist_id = '37i9dQZEVXbN6itCcaL3Tt'
 # '37i9dQZF1DXcBWIGoYBM5M' - Top Global
 
 
-# In[140]:
+# In[33]:
 
 
 # Funkcja zapisująca informacje o utworach do pliku CSV
@@ -53,7 +53,7 @@ def save_to_csv(track_info_list, csv_file_path):
         writer.writerows(track_info_list)
 
 
-# In[141]:
+# In[34]:
 
 
 def load_existing_tracks(csv_file_path):
@@ -65,7 +65,7 @@ def load_existing_tracks(csv_file_path):
         return None
 
 
-# In[142]:
+# In[35]:
 
 
 def retrive_track_info(playlist_id,frequency=None, csv_file_path='data/'): 
@@ -77,6 +77,7 @@ def retrive_track_info(playlist_id,frequency=None, csv_file_path='data/'):
         update_the_file = False
         if not csv_file_path.lower().endswith('/'):
             update_the_file = True
+            temp_file_path = csv_file_path
         # Pobierz top 50 utworów z playlisty
         top_tracks = sp.playlist_tracks(playlist_id, limit=50)
 
@@ -85,10 +86,10 @@ def retrive_track_info(playlist_id,frequency=None, csv_file_path='data/'):
         if top_tracks['items']:
             first_track_date_added = datetime.strptime(top_tracks['items'][0]['added_at'], '%Y-%m-%dT%H:%M:%SZ')
             if update_the_file==False:
-                csv_file_path = csv_file_path + str(first_track_date_added.date()) +".csv"
+                temp_file_path = csv_file_path + str(first_track_date_added.date()) +".csv"
 
         # Sprawdź, czy plik CSV istnieje
-        existing_tracks = load_existing_tracks(csv_file_path)
+        existing_tracks = load_existing_tracks(temp_file_path)
 
         # Sprawdź, czy data dodania utworu istnieje w pliku CSV
         if update_the_file:
@@ -104,9 +105,12 @@ def retrive_track_info(playlist_id,frequency=None, csv_file_path='data/'):
                 new_rank_exists = False 
                 return print("Brak nowych utworów do dodania.")
         
+        # Zaktualizuj ścieżkę pliku tymczasowego, pobieranego prosto z API (do przetworzenia przez NiFi)
+        csv_file_path = csv_file_path + 'songs' +".csv"
+        
         # Zaktualizuj zmienną informującą o istnieniu nowych danych
         new_rank_exists = True
-                
+        
         if new_rank_exists:
             # Przygotuj listę informacji o utworach do zapisu
             track_info_list = []
@@ -139,7 +143,7 @@ def retrive_track_info(playlist_id,frequency=None, csv_file_path='data/'):
     return
 
 
-# In[143]:
+# In[36]:
 
 
 def seperate_tracks_by_date(source_file_path, result_file_path=None):
@@ -169,7 +173,7 @@ def seperate_tracks_by_date(source_file_path, result_file_path=None):
     print("Pliki CSV zostały utworzone dla każdego unikalnego dnia.")
 
 
-# In[144]:
+# In[37]:
 
 
 # Dopasuj ID utworów na podstawie wiersza z ramki
@@ -194,7 +198,7 @@ def get_track_id(row):
         return None
 
 
-# In[145]:
+# In[38]:
 
 
 def add_track_id_to_csv(csv_file_path):
@@ -217,7 +221,7 @@ def add_track_id_to_csv(csv_file_path):
         print("Wczytywanie pliku CSV nie powiodło się.")
 
 
-# In[146]:
+# In[39]:
 
 
 def apply_to_date_files(start_date,end_date,directory_path):
@@ -234,8 +238,9 @@ def apply_to_date_files(start_date,end_date,directory_path):
             print(f"Error processing file {file_path}: {e}")
 
 
-# In[147]:
+# In[41]:
 
 
 # Pobieranie utworów do oddzielnej ramki dla danego dnia
 retrive_track_info(playlist_id)
+
