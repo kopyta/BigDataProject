@@ -18,7 +18,7 @@ import time
 
 # Spotify API credentials
 client_id = 'dfb4f42769e24d8a9870f81c6b660989'
-client_secret = 'd76afa6f5ab64a368e4dc4752084f11c'
+client_secret = '0271f1939dc64b6ab8a8bec047d5a9a9'
 
 # Set up authentication using client credentials flow
 client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
