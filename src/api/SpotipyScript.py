@@ -28,8 +28,15 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 playlist_id = '37i9dQZEVXbN6itCcaL3Tt'
 # '37i9dQZF1DXcBWIGoYBM5M' - Top Global
 
+# Określ nazwę katalogu głównego projektu
+project_directory_name = 'BigDataProject'
 
-# In[33]:
+# Pobierz ścieżkę do katalogu, w którym znajduje się bieżący skrypt (SpotipyScript.ipynb)
+current_directory = os.path.dirname(os.path.abspath('__file__')).replace('\\','/')
+
+# Przejście w górę po drzewie katalogów, aż dojdziesz do katalogu projektu
+while os.path.basename(current_directory) != project_directory_name:
+    current_directory = os.path.dirname(current_directory).replace('\\','/')
 
 
 # Funkcja zapisująca informacje o utworach do pliku CSV
@@ -38,6 +45,13 @@ def save_to_csv(track_info_list, csv_file_path):
     if not csv_file_path.lower().endswith('.csv'):
         # Ustaw typ pliku na csv
         csv_file_path=csv_file_path + ".csv"
+
+    # Pobierz katalog z pełnej ścieżki
+    directory = os.path.dirname(csv_file_path)
+
+    # Sprawdź czy katalog istnieje, a jeśli nie, utwórz go (rekurencyjnie)
+    if not os.path.exists(directory):
+        os.makedirs(directory)
 
     # Zdefiniuj nagłówek tabeli
     fieldnames = ['track_id','rank', 'track_name', 'artist', 'date_added', 'popularity']
@@ -243,4 +257,4 @@ def apply_to_date_files(start_date,end_date,directory_path):
 
 # Pobieranie utworów do oddzielnej ramki dla danego dnia
 retrive_track_info(playlist_id)
-
+# %%
