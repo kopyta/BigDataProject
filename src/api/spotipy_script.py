@@ -10,8 +10,6 @@ import os
 client_id = 'dfb4f42769e24d8a9870f81c6b660989'
 client_secret = '0271f1939dc64b6ab8a8bec047d5a9a9'
 
-client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
-
 session = requests.Session()
 
 retry = urllib3.Retry(
@@ -51,7 +49,7 @@ def load_existing_tracks(json_file_path):
         return None
 
 
-def retrieve_track_info(playlist_idd, frequency=None, json_directory='nifi_in/archive'):
+def retrieve_track_info(playlist_idd, json_directory='nifi_in/archive'):
     try:
         top_tracks = sp.playlist_tracks(playlist_idd, limit=50)
 
