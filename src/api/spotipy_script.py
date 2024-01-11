@@ -8,7 +8,7 @@ import os
 
 # Spotify API credentials
 client_id = 'dfb4f42769e24d8a9870f81c6b660989'
-client_secret = '0271f1939dc64b6ab8a8bec047d5a9a9'
+client_secret = 'PRIVATE INFO'
 
 session = requests.Session()
 
